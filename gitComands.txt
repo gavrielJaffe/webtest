@@ -1,0 +1,19 @@
+ghi bro it is gavriel i have some things for you on git : 
+for creating a  new  file use "touch index.html" 
+***************************************************************************************************
+for add them to git follew this staps: 
+1)
+git clone and copy paste form you own account on git : 
+
+2)
+git status to see : git status
+
+3) git add and the name of the fiel 
+"git add index.html" or you can do something else you can do git add . for avery thing 
+
+4)
+git commit -m "changing and addin new things into git(what aver you whant ) " 
+
+
+5) 
+for geting them into git use :"  git push"
