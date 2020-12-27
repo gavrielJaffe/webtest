@@ -1,0 +1,25 @@
+//from here the chank to get any time  3 diffrenent numbers 
+  let flag = false;
+  while (!flag)
+ {   
+            // all 3 numbers are different from each other.
+       if ((array[0] != array[1]) && (array[0] != array[2]) && (array[1] != array[2]))  
+         {
+           // jump to the end  of all the lopes.
+           flag = true;
+         }
+                // all of the numbers equal to each other.
+        else if  ((array[0] === array[1]) && (array[0] === array[2]))
+               {
+                  //get 3 numbers that are different from each other.
+               }  
+              // 2  from 3 numbers are equal to each other.
+          else if (((array[0] === array[1]) && (array[0] != array[2])) ||
+                  ((array[1] === array[2]) && (array[1] != array[0])) ||
+                   ((array[0] === array[2]) && (array[0] != array[1])))
+                   {
+                      // just get anther one that are not equal to theother two.
+                   }     
+  }     
+}
+  
