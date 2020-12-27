@@ -1,0 +1,21 @@
+function showRandom()
+{
+  // for (let step = 0; step < 3; step++)
+  let i = getRandomNumber(0,5);
+  let j = getRandomNumber(0, 3);
+  array[0] = [i, j];
+  let step = 1;
+  let flag2 = false;
+  while(!falg2)
+     {
+       let i = getRandomNumber(0,5);
+       let j = getRandomNumber(0, 3);
+       array[step] = [i, j];
+    if (
+          (array[step]!=array[step-1])
+        )
+        document.getElementById("randonBtn").innerText = "i=" + i + ",j=" + j;
+        document.getElementById("randonBtn").style.background = 'yellow';          
+        changColorBtnBlue(i, j);
+       step++;
+     }
